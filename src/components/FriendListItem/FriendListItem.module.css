@@ -1,0 +1,29 @@
+.boxFr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 64px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.online {
+  color: rgb(4, 166, 4);
+}
+
+.offline {
+  color: rgb(241, 15, 15);
+}

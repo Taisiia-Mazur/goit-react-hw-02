@@ -1,0 +1,70 @@
+.boxGeneral {
+  border: 2px solid rgb(61, 60, 60);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  width: 290px;
+}
+
+.boxAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.image {
+  border-radius: 100%;
+  background-color: rgb(48, 47, 47);
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.tag {
+  font-size: 16px;
+  color: gray;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(220, 218, 218);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-top: 1px solid rgb(109, 109, 109);
+  width: 80px;
+}
+
+.item:first-child {
+  border-right: 1px solid rgb(109, 109, 109);
+}
+
+.item:last-child {
+  border-left: 1px solid rgb(109, 109, 109);
+}
+
+.spanTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.spanContain {
+  font-size: 18px;
+  font-weight: 700;
+}
